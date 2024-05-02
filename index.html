@@ -1,0 +1,39 @@
+<link href="/style.css" rel="stylesheet" type="text/css" />
+<div class="topnav">
+  <a class="active logo-a" href="/">
+    <img class="logo" src="/logo.png"></img>
+  </a>
+  <a class="normal-a" href="/projects">Projects</a>
+  <a class="normal-a " href="/about">About</a>
+  <div class="right-topbar-group">
+  <a class="right-a semi-active" href="/contact">Contact</a>
+  <a class="right-a semi-active" id="chancey" hidden=true href="https://cdc-epic-website.cddisccase.repl.co/">???</a>
+  </div>
+</div>
+<center>
+  <div class="main-div">
+    <h1>This is my site.</h1>
+    <h1> </h1>
+    <img class="rounded-img" src="https://slang.net/img/slang/deez_nuts_4727.jpg"></img>
+  </div>
+</center>
+<script>
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const redirect = urlParams.get('red')
+  if (redirect == "jump"){
+    alert("Everything is fine. :]")
+  }
+  random = Math.random()
+  if (random > 0.49&& random < 0.75){
+    element = document.getElementById('chancey')
+    element.hidden = false;
+  }
+  else{
+    element = document.getElementById('chancey')
+    element.hidden = true;
+  }
+  if (redirect != undefined){
+  window.location.replace("/");
+  }
+</script>

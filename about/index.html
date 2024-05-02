@@ -1,0 +1,18 @@
+<link href="/style.css" rel="stylesheet" type="text/css" />
+<div class="topnav">
+  <a class="logo-a" id="easter" href="/easter_cdc.html">
+    <img class="logo" src="/logo.png"></img>
+  </a>
+  <a class="normal-a" class="active" id="realhome" href="/">Home</a>
+  <a class="normal-a" href="/projects">Projects</a>
+  <a class="normal-a " href="/contact">Contact</a>
+  <a class="active normal-a" href="/about">About</a>
+</div>
+<script>
+  if (localStorage.getItem("gotScared") != undefined) {
+    element = document.getElementById("easter")
+    element.href = "/"
+    element = document.getElementById("realhome")
+    element.hidden = true;
+  }
+</script>

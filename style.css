@@ -1,0 +1,90 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #b35600;
+  overflow: hidden;
+  border-radius:50px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.normal-a {
+  margin-top:8px;
+  float: left;
+  color: #feb67c;
+  text-align: center;
+  padding: 14px 16px;
+  border-radius:25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.right-a {
+  margin-top:8px;
+  float: right;
+  color: #feb67c;
+  text-align: center;
+  padding: 14px 16px;
+  border-radius:25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.logo-a {
+  float: left;
+  background-color: #a85100;
+  text-align: center;
+  padding: 14px 16px;
+  border-radius:0px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f5a029;
+  color: black;
+}
+.topnav .right-a.semi-active:hover {
+  background-color: #ff7b00;
+  color: #e3e3e3;
+}
+/* Add a color to the active/current link */
+.topnav .normal-a.active {
+  background-color: #ff9500;
+  color: white;
+  font-weight:bold;
+}
+.topnav .logo-a.active {
+  background-color: #ff9500;
+  color: white;
+  font-weight:bold;
+}
+.topnav .right-a.active {
+  background-color: #ff9500;
+  color: white;
+  font-weight:bold;
+}
+.topnav .right-a.semi-active {
+  background-color: #e06c00;
+  color: white;
+  font-weight:bold;
+}
+html{
+  background-color: #ffa21f;
+}
+.logo{
+  width:40px;
+  height:40px;
+}
+.main-div{
+  background-color:#fd9608;
+  border-radius:10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-topbar-group{
+  margin-right:25px;
+}
+.left-topbar-group{
+  margin-left:25px;
+}
+.rounded-img{
+  border-radius:25px;
+}
